@@ -1,0 +1,105 @@
+.container {
+    display: flex;
+}
+
+
+.aba {
+    flex: 0.3;
+    background-color: hwb(227 60% 1%);
+    height: 940px;
+    width: px;
+}
+
+.Livros {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.Livros input[type="button"] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+.Livros input[type="button"]:hover {
+    background-color: #45a049;
+}
+
+.Livros p {
+    font-size: 14px;
+    margin: 0;
+    padding: 5px;
+}
+
+
+
+div.Titulo{
+    text-align: center;
+}
+
+.imagem {
+    border: solid black 2px;
+    width: 15vw;
+    height: 13vw;
+  
+}
+
+
+
+.jardim {
+    flex: 1;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Titulo p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Texto p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+.escondido {
+    display: none;
+}
+
+.galeria{
+    background-color: black;
+}
+
+.conserto button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.conserto button:hover {
+    background-color: #45a049;
+}
